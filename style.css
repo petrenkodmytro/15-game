@@ -1,0 +1,27 @@
+h1 {
+    color: blue;
+}
+.field {
+    width: 600px;
+    height: 600px;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+.cell {
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(36, 48, 217);
+    border-radius: 10px;
+    background: linear-gradient(45deg, rgb(121, 226, 89), rgb(231, 251, 15));
+    position: absolute;
+    font-size: 80px;
+    font-weight: 800;
+    transition: all 0.3s;
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
