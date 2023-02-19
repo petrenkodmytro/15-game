@@ -1,6 +1,9 @@
 body {
   height: 100vh;
-  background: no-repeat linear-gradient(135deg, #463c78 0%, #9fa42b 67%, #c527ae 100%);
+  background: #463c78;
+  background: -moz-linear-gradient(-45deg, #463c78 0%, #9fa42b 67%, #c527ae 100%);
+  background: -webkit-linear-gradient(-45deg, #463c78 0%, #9fa42b 67%, #c527ae 100%);
+  background: linear-gradient(135deg, #463c78 0%, #9fa42b 67%, #c527ae 100%);
 }
 .title {
   margin-top: 10px;
