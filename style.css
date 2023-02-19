@@ -29,7 +29,7 @@ body {
   border-radius: 10px;
   background: linear-gradient(180deg, rgb(37, 12, 229), rgb(223, 241, 28));
   position: absolute;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 800;
   transition: all 0.3s;
   cursor: pointer;
