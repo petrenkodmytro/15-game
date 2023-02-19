@@ -1,27 +1,36 @@
-h1 {
-    color: blue;
+body {
+    height: 100vh;
+  background: no-repeat linear-gradient(135deg, #463c78 0%, #9fa42b 67%, #c527ae 100%);
+}
+.title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  font-size: 60px;
+  text-align: center;
+  color: blue;
 }
 .field {
-    width: 600px;
-    height: 600px;
-    border: 3px solid black;
-    border-radius: 10px;
-    position: relative;
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+  border: 10px solid rgb(237, 110, 167);
+  border-radius: 10px;
+  position: relative;
 }
 .cell {
-    box-sizing: border-box;
-    width: 150px;
-    height: 150px;
-    border: 3px solid rgb(36, 48, 217);
-    border-radius: 10px;
-    background: linear-gradient(45deg, rgb(121, 226, 89), rgb(231, 251, 15));
-    position: absolute;
-    font-size: 80px;
-    font-weight: 800;
-    transition: all 0.3s;
-    cursor: pointer;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  border: 5px solid rgb(47, 159, 21);
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgb(37, 12, 229), rgb(223, 241, 28));
+  position: absolute;
+  font-size: 80px;
+  font-weight: 800;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,1 +1,1 @@
-# 15-game
+# 15 puzzle game
