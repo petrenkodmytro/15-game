@@ -1,5 +1,5 @@
 const field = document.querySelector(".field"); // обращаемся к field
-const cellSize = 100; // размер ячейки
+const cellSize = 90; // размер ячейки
 
 const empty = {
   top: 0,

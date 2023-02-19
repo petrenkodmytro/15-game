@@ -11,20 +11,20 @@ body {
   font-size: 50px;
   text-align: center;
   color: blue;
-  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 23px -2px 13px rgba(206,89,55,0.16);
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5), 23px -2px 13px rgba(206, 89, 55, 0.16);
 }
 .field {
   margin: 0 auto;
-  width: 400px;
-  height: 400px;
+  width: 360px;
+  height: 360px;
   border: 3px solid rgb(228, 238, 226);
   border-radius: 10px;
   position: relative;
 }
 .cell {
   box-sizing: border-box;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border: 3px solid rgb(38, 18, 129);
   border-radius: 10px;
   background: linear-gradient(180deg, rgb(37, 12, 229), rgb(223, 241, 28));
