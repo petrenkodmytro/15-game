@@ -3,32 +3,33 @@ body {
   background: #463c78;
   background: -moz-linear-gradient(-45deg, #463c78 0%, #9fa42b 67%, #c527ae 100%);
   background: -webkit-linear-gradient(-45deg, #463c78 0%, #9fa42b 67%, #c527ae 100%);
-  background: linear-gradient(135deg, #463c78 0%, #9fa42b 67%, #c527ae 100%);
+  background: no-repeat linear-gradient(135deg, #463c78 0%, #9fa42b 67%, #c527ae 100%);
 }
 .title {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   color: blue;
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 23px -2px 13px rgba(206,89,55,0.16);
 }
 .field {
   margin: 0 auto;
-  width: 600px;
-  height: 600px;
-  border: 10px solid rgb(237, 110, 167);
+  width: 400px;
+  height: 400px;
+  border: 3px solid rgb(228, 238, 226);
   border-radius: 10px;
   position: relative;
 }
 .cell {
   box-sizing: border-box;
-  width: 150px;
-  height: 150px;
-  border: 5px solid rgb(47, 159, 21);
+  width: 100px;
+  height: 100px;
+  border: 3px solid rgb(38, 18, 129);
   border-radius: 10px;
   background: linear-gradient(180deg, rgb(37, 12, 229), rgb(223, 241, 28));
   position: absolute;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 800;
   transition: all 0.3s;
   cursor: pointer;

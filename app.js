@@ -1,5 +1,5 @@
 const field = document.querySelector(".field"); // обращаемся к field
-const cellSize = 150; // размер ячейки
+const cellSize = 100; // размер ячейки
 
 const empty = {
   top: 0,
@@ -52,8 +52,7 @@ for (let i = 1; i <= 15; i++) {
   // добавление элементов на страницу
   field.append(cell);
   // запускаем обработчик событий, при нажатии на ячейку будет срабатывать функция
-cell.addEventListener("click", () => {
+  cell.addEventListener("click", () => {
     move(i);
   });
 }
-
