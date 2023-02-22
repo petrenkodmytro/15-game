@@ -1,9 +1,9 @@
 body {
   height: 100vh;
   background: #463c78;
-  background: -moz-linear-gradient(-45deg, #463c78 0%, #9fa42b 67%, #c527ae 100%);
-  background: -webkit-linear-gradient(-45deg, #463c78 0%, #9fa42b 67%, #c527ae 100%);
-  background: no-repeat linear-gradient(135deg, #463c78 0%, #9fa42b 67%, #c527ae 100%);
+  background: -moz-linear-gradient(-45deg, #c4f6b2 0%, #ecefad 67%, #e0eff4 100%);
+  background: -webkit-linear-gradient(-45deg, #a4dce6 0%, #ecbad3 67%, #c9cb60 100%);
+  background: no-repeat linear-gradient(135deg, #d1cde4 0%, #f8f874 67%, #def17e 100%);
 }
 .title {
   margin-top: 10px;
