@@ -11,7 +11,7 @@ body {
   background: no-repeat linear-gradient(135deg, #d1cde4 0%, #f8f874 67%, #def17e 100%); */
 }
 .title {
-  margin-top: 50%;
+  margin-top: 20px;
   margin-bottom: 10px;
   font-size: 50px;
   text-align: center;
