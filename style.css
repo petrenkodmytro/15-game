@@ -1,12 +1,17 @@
 body {
   height: 100vh;
-  background: #463c78;
+  background-image: url(./bg.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background: #463c78;
   background: -moz-linear-gradient(-45deg, #c4f6b2 0%, #ecefad 67%, #e0eff4 100%);
   background: -webkit-linear-gradient(-45deg, #a4dce6 0%, #ecbad3 67%, #c9cb60 100%);
-  background: no-repeat linear-gradient(135deg, #d1cde4 0%, #f8f874 67%, #def17e 100%);
+  background: no-repeat linear-gradient(135deg, #d1cde4 0%, #f8f874 67%, #def17e 100%); */
 }
 .title {
-  margin-top: 10px;
+  margin-top: 50%;
   margin-bottom: 10px;
   font-size: 50px;
   text-align: center;
@@ -17,7 +22,7 @@ body {
   margin: 0 auto;
   width: 360px;
   height: 360px;
-  border: 3px solid rgb(228, 238, 226);
+  border: 5px solid rgba(20, 223, 40, 0.988);
   border-radius: 10px;
   position: relative;
 }
@@ -27,7 +32,7 @@ body {
   height: 90px;
   border: 3px solid rgb(38, 18, 129);
   border-radius: 10px;
-  background: linear-gradient(180deg, rgb(37, 12, 229), rgb(223, 241, 28));
+  background: linear-gradient(180deg, rgb(73, 51, 242), rgb(223, 241, 28));
   position: absolute;
   font-size: 50px;
   font-weight: 800;
